@@ -1,0 +1,29 @@
+*{border:none;}
+body{margin: 0;padding: 0;font:14px 'Helvetica Neue',helvetica,arial,"liberation sans",freesans,sans-serif;color: #555;background: #222;}
+a{color: #225582;text-decoration: none;}
+a:hover{text-decoration: underline;}
+
+.header{background: #2b768c url('../img/bg.jpg?v=2') no-repeat center bottom}
+
+.logo{margin: 50px 0 0;}
+
+.slogan{font-size: 34px;font-weight: 100;color: #fff;margin: 30px 0 0;}
+.screenshots{margin: 0 auto;}
+
+a.btn-download{width: 200px;height: 72px;display: block;background: url('../img/app-store-badge.png') no-repeat;margin: 40px auto 0;}
+
+.body{text-align: center;font-size: 26px;font-weight: 100;padding: 70px 0;background: #fff;}
+.body h1{font-size: 40px;font-weight: 100;color: #333;margin: 0 0 20px;}
+
+
+.quotes{margin: 0 0 40px;padding: 70px 0;font-size: 18px;color: #bbb}
+.quotes h1{text-align: center;font-weight: 100;margin:0 0 40px;}
+
+.quotes ul{margin: 0;padding: 0;overflow: hidden;}
+.quotes ul li{list-style: none;position: relative;padding: 0 30px;display: none;}
+.quotes ul li p{line-height: 1.8em;font-weight: 100;text-align: center;}
+.quotes ul li strong{color: #fff;font-weight: normal;}
+
+.footer{text-align: center;;font-size: 20px;font-weight: 100;padding: 20px 0 50px;line-height: 1.8em;color: #555;border-top: 1px solid #333;}
+.footer a{color: #ccc;}
+.footer a:hover{color: #fff;}
