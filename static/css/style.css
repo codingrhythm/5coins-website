@@ -6,7 +6,7 @@
 }
 
 
-body{font-weight: 100;color: #fff;padding:0;margin:0;background: url('../img/bg/3.jpg') no-repeat center center fixed;
+body{font-weight: 100;color: #fff;padding:0;margin:0;background: #555;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -17,6 +17,15 @@ body{font-weight: 100;color: #fff;padding:0;margin:0;background: url('../img/bg/
 .bg3{background-image: url('../img/bg/3.jpg');text-shadow:1px 1px 0px rgba(0,0,0,0.3);}
 .bg4{background-image: url('../img/bg/4.jpg');}
 .bg5{background-image: url('../img/bg/5.jpg');}
+#bg {
+  position: fixed; 
+  top: 0; 
+  left: 0; 
+
+  /* Preserve aspet ratio */
+  max-width: 100%;
+  min-height: 100%;
+}
 
 
 .left{width: 600px;float: left;}

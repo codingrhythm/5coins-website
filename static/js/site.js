@@ -3,15 +3,15 @@ $(function(){
     var hours = now.getHours();
 
     if (hours < 6){
-        $('body').addClass('bg1');
+        $('#bg').prop('src','static/img/bg/1.jpg');
     }else if (hours >=6 && hours <= 9){
-        $('body').addClass('bg2');
+        $('#bg').prop('src','static/img/bg/2.jpg');
     }else if (hours >9 && hours <=16){
-        $('body').addClass('bg3');
+        $('#bg').prop('src','static/img/bg/3.jpg');
     }else if (hours >16 && hours <=19){
-        $('body').addClass('bg4');
+        $('#bg').prop('src','static/img/bg/4.jpg');
     }else{
-        $('body').addClass('bg5');
+        $('#bg').prop('src','static/img/bg/5.jpg');
     }
 
     show_next_quote();
