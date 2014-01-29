@@ -3,15 +3,16 @@ $(function(){
     var hours = now.getHours();
 
     if (hours < 6){
-        $('#bg').prop('src','static/img/bg/1.jpg');
+        $('#bg img').prop('src','static/img/bg/1.jpg');
     }else if (hours >=6 && hours <= 9){
-        $('#bg').prop('src','static/img/bg/2.jpg');
+        $('#bg img').prop('src','static/img/bg/2.jpg');
     }else if (hours >9 && hours <=16){
-        $('#bg').prop('src','static/img/bg/3.jpg');
+        $('#bg img').prop('src','static/img/bg/3.jpg');
+        //$('body').addClass('light');
     }else if (hours >16 && hours <=19){
-        $('#bg').prop('src','static/img/bg/4.jpg');
+        $('#bg img').prop('src','static/img/bg/4.jpg');
     }else{
-        $('#bg').prop('src','static/img/bg/5.jpg');
+        $('#bg img').prop('src','static/img/bg/5.jpg');
     }
 
     show_next_quote();
