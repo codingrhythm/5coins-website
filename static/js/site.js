@@ -1,7 +1,7 @@
 $(function(){
     var now = new Date();
     var hours = now.getHours();
-    hours = 20;
+
     if (hours < 6){
         $('body').addClass('bg1');
     }else if (hours >=6 && hours <= 9){
