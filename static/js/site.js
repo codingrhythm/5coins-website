@@ -16,7 +16,7 @@ $(function(){
     }
 
     show_next_quote();
-    setTimeout('show_next_screenshot()', 3000);
+    setTimeout('show_next_screenshot()', 4000);
 });
 
 function show_next_quote(){
@@ -56,13 +56,13 @@ function show_next_screenshot(){
     if (current_screen == number_of_shots){
         current_screen = 0;
         $('.screen-shots').css('left', 0);
-        setTimeout('show_next_screenshot()', 3000);
+        setTimeout('show_next_screenshot()', 4000);
          $('.screen-shots').attr('current-screen', current_screen);
         return;
     } 
 
     $('.screen-shots').animate({left:-320*current_screen}, 250, function(){
         $('.screen-shots').attr('current-screen', current_screen);
-        setTimeout('show_next_screenshot()', 3000);
+        setTimeout('show_next_screenshot()', 4000);
     });
 }
