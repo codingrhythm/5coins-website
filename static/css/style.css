@@ -1,0 +1,65 @@
+@font-face {
+    font-family: "HelveticaNeue-Light";
+    font-style: normal;
+    font-weight: 100;
+    src: url("HelveticaNeue-Light.woff") format("woff");
+}
+
+
+body{font-weight: 100;color: #fff;padding:0;margin:0;background-color: #333; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
+
+.bg1{background: url('../img/bg/1.jpg') no-repeat center center fixed;}
+.bg2{background: url('../img/bg/2.jpg') no-repeat center center fixed;}
+.bg3{background: url('../img/bg/3.jpg') no-repeat center center fixed;}
+.bg4{background: url('../img/bg/4.jpg') no-repeat center center fixed;}
+.bg5{background: url('../img/bg/5.jpg') no-repeat center center fixed;}
+
+
+.left{width: 600px;float: left;}
+.right{padding-left: 600px;}
+
+h1{font-weight: 100;font-size: 4em;margin-top: 160px;}
+.description{;font-weight: 100;font-size: 1.6em;}
+a.btn-download{width: 200px;height: 72px;display: block;margin-top: 40px;}
+
+.quotes{margin-top: 40px;}
+.quotes h3{font-weight: 100;margin:0 0 40px;}
+
+.quotes ul{margin: 0;padding: 0;overflow: hidden;}
+.quotes ul li{list-style: none;position: relative;display: none;border-left: 1px solid #fff;padding-left: 10px;}
+.quotes ul li p{line-height: 1.8em;font-weight: 100;font-size: 1.2em;letter-spacing: 1px;}
+.quotes ul li strong{color: #fff;font-weight: 300;}
+.quotes ul li p.by{opacity: 0.7;font-size: 1em;}
+
+.iphone{position: relative;height: 784px;border: 2px solid #fff;width: 366px;border-radius: 46px;margin:60px auto 0;}
+.iphone .screen{position: absolute;width: 320px;height: 568px;border: 1px solid #fff;top: 108px;left: 22px;overflow: hidden;}
+.iphone .lock-btn{width: 60px;height: 7px;background: #fff;position: absolute;top: -8px;left: 248px;border: 1px solid transparent;border-radius: 2px;}
+.iphone .camera{width: 16px;height: 16px;background: #fff;border-radius: 16px;border: 1px solid transparent;left: 50%;margin-left: -8px;top: 26px;position: absolute;}
+.iphone .headset{width: 70px;height: 14px;border: 1px solid transparent;border-radius: 14px;background: #fff;position: absolute;left: 50%;margin-left: -35px;top: 54px;}
+.iphone .silent-btn{width: 5px;position: absolute;left: -6px;top: 106px;background: #fff;height: 36px;border: 1px solid transparent;border-radius: 1px;}
+.iphone .plus-btn{width: 5px;position: absolute;left: -6px;top: 180px;background: #fff;height: 28px;border: 1px solid transparent;border-radius: 1px;}
+.iphone .minus-btn{width: 5px;position: absolute;left: -6px;top: 244px;background: #fff;height: 28px;border: 1px solid transparent;border-radius: 1px;}
+.iphone .home-btn{width: 70px;position: absolute;left: 50%;top: 690px;height: 70px;border: 1px solid #fff;border-radius: 70px;margin-left: -35px;}
+.iphone .home-btn .icon{width: 24px;height: 24px;border-radius: 5px;border: 1px solid #fff;left: 50%;top: 50%;position: absolute;margin-top: -12px;margin-left: -12px;}
+
+.screen-shots{margin: 0;padding: 0;position: absolute;top: 0;width: 1600px;}
+.screen-shots li{list-style: none;float: left;;margin: 0;padding: 0;}
+
+.footer{text-align: center;;font-size: 1.2em;margin: 100px 0 60px;}
+.footer a{color: #fff;}
+
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2),
+only screen and (   min--moz-device-pixel-ratio: 2),
+only screen and (     -o-min-device-pixel-ratio: 2/1),
+only screen and (        min-device-pixel-ratio: 2),
+only screen and (                min-resolution: 192dpi),
+only screen and (                min-resolution: 2dppx) { 
+  
+  /* Retina-specific stuff here */
+
+}
