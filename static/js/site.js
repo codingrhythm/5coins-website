@@ -30,7 +30,7 @@ function show_next_quote(){
             $(this).hide();
             $(this).removeClass('showing');
             quote.addClass('showing').show().css('opacity','0').animate({opacity:1}, 1000, function(){
-                var seconds = $(this).find('p').html().split(' ').length * 180;
+                var seconds = $(this).find('p:last').html().split(' ').length * 200;
                 if (seconds < 3000){
                     seconds = 3000;
                 }
@@ -40,7 +40,7 @@ function show_next_quote(){
         });
     }else{
          quote.addClass('showing').show().css('opacity','0').animate({opacity:1}, 1000, function(){
-            var seconds = $(this).find('p').html().split(' ').length * 180;
+            var seconds = $(this).find('p:last').html().split(' ').length * 200;
             if (seconds < 3000){
                 seconds = 3000;
             }
