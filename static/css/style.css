@@ -7,16 +7,16 @@
 
 
 body{font-weight: 100;color: #fff;padding:0;margin:0;background-color: #333; 
-  -webkit-background-size: 100% 100%;
-  -moz-background-size: 100% 100%;
-  -o-background-size: 100% 100%;
-  background-size: 100% 100%;}
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;}
 
-.bg1{background: url('../img/bg/1.jpg') no-repeat center top fixed;}
-.bg2{background: url('../img/bg/2.jpg') no-repeat center top fixed;}
-.bg3{background: url('../img/bg/3.jpg') no-repeat center top fixed;}
-.bg4{background: url('../img/bg/4.jpg') no-repeat center top fixed;}
-.bg5{background: url('../img/bg/5.jpg') no-repeat center top fixed;}
+.bg1{background: url('../img/bg/1.jpg') no-repeat center center fixed;}
+.bg2{background: url('../img/bg/2.jpg') no-repeat center center fixed;}
+.bg3{background: url('../img/bg/3.jpg') no-repeat center center fixed;}
+.bg4{background: url('../img/bg/4.jpg') no-repeat center center fixed;}
+.bg5{background: url('../img/bg/5.jpg') no-repeat center center fixed;}
 
 
 .left{width: 600px;float: left;}
