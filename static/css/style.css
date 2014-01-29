@@ -10,11 +10,11 @@ body{font-weight: 100;color: #fff;padding:0;margin:0;background: url('../img/bg/
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover; text-shadow:1px 1px 2px #000;}
+  background-size: cover;}
 
 .bg1{background-image: url('../img/bg/1.jpg');}
 .bg2{background-image: url('../img/bg/2.jpg');}
-.bg3{background-image: url('../img/bg/3.jpg');}
+.bg3{background-image: url('../img/bg/3.jpg');text-shadow:1px 1px 0px rgba(0,0,0,0.3);}
 .bg4{background-image: url('../img/bg/4.jpg');}
 .bg5{background-image: url('../img/bg/5.jpg');}
 
