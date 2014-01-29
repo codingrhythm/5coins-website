@@ -1,4 +1,19 @@
 $(function(){
+    var now = new Date();
+    var hours = now.getHours();
+    hours = 20;
+    if (hours < 6){
+        $('body').addClass('bg1');
+    }else if (hours >=6 && hours <= 9){
+        $('body').addClass('bg2');
+    }else if (hours >9 && hours <=16){
+        $('body').addClass('bg3');
+    }else if (hours >16 && hours <=19){
+        $('body').addClass('bg4');
+    }else{
+        $('body').addClass('bg5');
+    }
+
     show_next_quote();
     setTimeout('show_next_screenshot()', 3000);
 });
