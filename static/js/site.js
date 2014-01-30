@@ -15,6 +15,11 @@ $(function(){
         $('#bg img').prop('src','static/img/bg/5.jpg');
     }
 
+    // build reviews
+    for (var i in reviews){
+        var li = $('<li><p class="by"><strong>by '+reviews[i].name+'</strong> '+reviews[i].date+'</p><p>'+reviews[i].content+'</p></li>');
+        $('#reviews').append(li);
+    }
     show_next_quote();
     setTimeout('show_next_screenshot()', 4000);
 });
