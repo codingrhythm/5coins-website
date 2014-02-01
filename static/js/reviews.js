@@ -1,6 +1,21 @@
 var reviews = 
 [
     {
+        "name":"Everything's_Jake",
+        "date":" Jan 30, 2014",
+        "content": "After trying out 4 or 5 other daily spending apps, not one if them was easier to use. This one was/is undoubtedly my favorite. And the interface is so beautiful, you almost want to spend money simply to be able to use the app more haha"
+    },
+    {
+        "name":"莫罹难",
+        "date":" Jan 30, 2014",
+        "content": "简单实用是用过中最好用的记帐本"
+    },
+    {
+        "name":"Albumstreet",
+        "date":" Jan 29, 2014",
+        "content": "Apple should learn from this app how to create something which user love to use. I really use this app 30 times a day. Really really amazing work. It simplify my daily process of maintaining expanses"
+    },
+    {
         "name":"Paul一依",
         "date":" Jan 29, 2014",
         "content": "像是手机自带的应用一样贴心省心。"
@@ -49,6 +64,11 @@ var reviews =
         "name":"Ranger Xrzx",
         "date":" Jan 24, 2014",
         "content": "Don't upgrade it! Please keep it simple. An amazing app with crazy design. Super useful due to minimalism."
+    },
+    {
+        "name":"Shivajirao Desai",
+        "date":" Jan 23, 2014",
+        "content": "The best app ever... Very neat nd good app . Every one must download this app .very easy to keep track record of your money spend"
     },
     {
         "name":"顶了！",
