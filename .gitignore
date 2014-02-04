@@ -1,0 +1,10 @@
+*.log
+*.pot
+*.pyc
+bin/*
+include/*
+lib/*
+.Python
+*.bak
+*.sublime-project
+*.sublime-workspace
