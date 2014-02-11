@@ -55,19 +55,21 @@ function show_next_quote(){
 }
 
 function show_next_screenshot(){
-    var number_of_shots = $('.screen-shots li').length;
-    var current_screen = parseInt($('.screen-shots').attr('current-screen'));
-    current_screen ++;
-    if (current_screen == number_of_shots){
-        current_screen = 0;
-        $('.screen-shots').css('left', 0);
-        setTimeout('show_next_screenshot()', 4000);
-         $('.screen-shots').attr('current-screen', current_screen);
-        return;
-    } 
+    var showing_view = $('.screen-shots li.showing');
+    var next_view = showing_view.prev('li');
 
-    $('.screen-shots').animate({left:-320*current_screen}, 250, function(){
-        $('.screen-shots').attr('current-screen', current_screen);
-        setTimeout('show_next_screenshot()', 4000);
-    });
+    if (next_view.length == 0){
+        showing_view.removeClass('showing');
+        next_view = $('.screen-shots li:last');
+        next_view.addClass('showing').animate({opacity:1}, 1000, function(){
+            $('.screen-shots li').css('opacity', '1');
+            setTimeout('show_next_screenshot()', 4000);
+        });
+    }else{
+        showing_view.animate({opacity:0}, 1000, function(){
+            showing_view.removeClass('showing');
+            next_view.addClass('showing');
+            setTimeout('show_next_screenshot()', 4000);
+        });
+    }
 }
