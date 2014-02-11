@@ -46,7 +46,7 @@ a.btn-download{width: 200px;height: 72px;display: block;margin-top: 40px;}
 .quotes ul li strong{color: #fff;font-weight: 300;}
 .quotes ul li p.by{opacity: 0.7;font-size: 1em;}
 
-.iphone{position: relative;height: 784px;border: 2px solid #fff;width: 366px;border-radius: 46px;margin:60px auto;}
+.iphone{position: relative;height: 784px;border: 2px solid #fff;width: 366px;border-radius: 46px;margin:60px auto;background-color: rgba(255, 255, 255, 0.15);}
 .iphone .screen{position: absolute;width: 320px;height: 568px;border: 1px solid #fff;top: 108px;left: 22px;overflow: hidden;}
 .iphone .lock-btn{width: 60px;height: 7px;background: #fff;position: absolute;top: -8px;left: 248px;border: 1px solid transparent;border-radius: 2px;}
 .iphone .camera{width: 16px;height: 16px;background: #fff;border-radius: 16px;border: 1px solid transparent;left: 50%;margin-left: -8px;top: 26px;position: absolute;}
