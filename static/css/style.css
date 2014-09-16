@@ -36,7 +36,7 @@ body{font-weight: 200;padding:0;margin:0;background: #fff;font-family:"Helvetica
 section{position: relative;}
 section.header{color: #fff;padding-bottom: 163px;}
 section.body{color: #333; background: #fff;}
-section h2{font-size: 60px;font-weight: 100;line-height: 60px;}
+section h2{font-size: 60px;font-weight: 100;line-height: 60px;margin: 50px 0;}
 
 
 .relative{position: relative;}
@@ -63,7 +63,7 @@ section.section-3 h2{margin-top: 185px;}
 .screenshot-3{width: 301px;height: 652px;margin: 140px 0 0 160px;background-image: url('../img/screenshots/3.png');background-size: 301px 652px;}
 .screenshot-4{width: 443px;height: 222px;margin-top: 172px;background-image: url('../img/screenshots/4.png');background-size: 443px 222px;}
 
-section.section-4 h2{text-align: center;margin: 85px 0 50px;}
+section.section-4 h2{text-align: center;margin-top: 85px;}
 section.section-4 p{text-align: center;}
 
 .screenshot-5{margin-top: 103px;height: 558px;}
