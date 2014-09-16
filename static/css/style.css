@@ -47,12 +47,12 @@ p{font-size: 24px;line-height: 36px;}
 
 .logo{width: 335px;height: 74px;background-image: url('../img/logo.png');background-size: 335px 74px;margin: 208px 0 56px;}
 .btn-download{width: 196px;height: 56px;background-image: url('../img/download-badge.png');background-size: 196px 56px;margin-top: 50px;display: block;}
-.screenshot-1{width: 437px;height: 803px;background-image:url('../img/screenshots/1.png');background-size: 437px 803px;margin-bottom: -500px;}
+.screenshot-1{width: 437px;height: 803px;background-image:url('../img/screenshots/1.png');background-size: 437px 803px;position: absolute; right: 20px; top: 95px;z-index: 1000;}
 
 section.section-2{padding-bottom: 150px;}
 section.section-2 h2{margin-top: 548px;}
 
-.layers{overflow: visible;position: relative;height: 500px;}
+.layers{overflow: visible;position: relative;height: 464px;}
 .layers .layer1{width: 535px;height: 337px;background-image: url('../img/screenshots/2_layer1.png'); background-size: 535px 337px;position: absolute;top: 282px;left: 82px;}
 .layers .layer2{width: 535px;height: 337px;background-image: url('../img/screenshots/2_layer2.png'); background-size: 535px 337px;position: absolute;top: 282px;left: 82px;}
 .layers .layer3{width: 700px;height: 464px;background-image: url('../img/screenshots/2_layer3.png'); background-size: 700px 464px;position: absolute;top: 250px;left: -10px;}
