@@ -21,17 +21,22 @@ function scroll_layer(){
     var scroll_top = $(window).scrollTop();
     var layer_delta = 0;
 
-    if (scroll_top > 500){
-        layer_delta = (scroll_top - 500) / 3;
-        $('.layer').each(function(){
-            var original_y = parseInt($(this).attr('original-y'));
-            var max_y = parseInt($(this).attr('max-y'));
-            var ratio = parseInt($(this).attr('scroll-ratio'));
-            var new_top = original_y - layer_delta * ratio;
-            new_top = Math.max(new_top, max_y);
-            $(this).css('top', new_top+'px');
-        });
-    }
+    $('.layers').each(function(){
+        var trigger = parseInt($(this).attr('scroll-trigger'));
+
+        if (scroll_top > trigger){
+            layer_delta = (scroll_top - trigger) / 3;
+            $(this).find('.layer').each(function(){
+                var original_y = parseInt($(this).attr('original-y'));
+                var max_y = parseInt($(this).attr('max-y'));
+                var ratio = parseInt($(this).attr('scroll-ratio'));
+                var new_top = original_y - layer_delta * ratio;
+                new_top = Math.max(new_top, max_y);
+                $(this).css('top', new_top+'px');
+            });
+        }
+    });
+    
 }
 
 function show_fade_in(){
