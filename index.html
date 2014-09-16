@@ -13,76 +13,127 @@
 </head>
 
 <body>
-    <div id="bg">
-      <img src="static/img/bg/1.jpg" alt="">
-    </div>
-
-    <div class="content">
+    
+    <section class="header">
+        <div class="bg">
+            <img src="static/img/bg/1.jpg">
+            <div class="overlay"></div>
+        </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-7 col-sm-12">
-                    <h1>Simply Beautiful!</h1>
-                    <p class="description">
-                        It's simpler and easier!<br> You just need to know how much you are spending.
+                <div class="col-md-7">
+                    <div class="logo no-repeat"></div>
+                    <p>
+                        It's simpler and easier!<br/>
+                        You just need to know how much you are spending.
                     </p>
-                    <div>
-                        <a href="http://itunes.apple.com/us/app/id572886919?mt=8" class="btn-download"><img width="200" src="static/img/download-badge.svg"></a>
-                    </div>
-
-                    <div class="quotes">
-                        <h3>The Word is Spreading...</h3>
-                        <ul id="reviews">
-                        </ul>
-                    </div>
-
-                    <div class="footer">
-                        <a href="mailto:zhuyuzhou.dev@gmail.com">zhuyuzhou.dev@gmail.com</a>&nbsp;&nbsp;|&nbsp;&nbsp;<a href="http://blog.cmsight.com">Blog</a>
-                    </div>
+                    <a href="http://itunes.apple.com/us/app/id572886919?mt=8" class="btn-download no-repeat"></a>
                 </div>
-
-                <div class="col-md-5 col-sm-12">
-                    <div class="iphone">
-                        <div class="lock-btn"></div>
-                        <div class="camera"></div>
-                        <div class="headset"></div>
-                        <div class="silent-btn"></div>
-                        <div class="minus-btn"></div>
-                        <div class="plus-btn"></div>
-                        <div class="home-btn"><div class="icon"></div></div>
-                        <div class="screen">
-                            <ul class="screen-shots clearfix" current-screen="0">
-                                <li><img src="static/img/screenshot-5.png" width="320"></li>
-                                <li><img src="static/img/screenshot-4.png" width="320"></li>
-                                <li><img src="static/img/screenshot-3.png" width="320"></li>
-                                <li><img src="static/img/screenshot-2.png" width="320"></li>
-                                <li class="showing"><img src="static/img/screenshot-1.png" width="320"></li>
-                            </ul>
-                            
-                        </div>
-                    </div>
+                <div class="col-md-5 relative">
+                    <div class="screenshot-1 no-repeat"></div>
                 </div>
-                
             </div>
-
         </div>
-    </div>
-    
+    </section>
+
+    <section class="body section-2 relative">
+        <div class="container">
+
+            <div class="row">
+                <div class="col-md-6 layers relative">
+                    <div class="layer3 no-repeat"></div>
+                    <div class="layer2 no-repeat"></div>
+                    <div class="layer1 no-repeat"></div>
+                </div> 
+                <div class="col-md-6">
+                    <h2>Simple and Easy</h2>
+                    <p>
+                        Simply enter the number you spent to start tracking your expenses.  
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body section-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2>Intuitive Gestures</h2>
+                    <p>
+                        Use gestures to manage expenses, change date and time. It’s easy, quick and fun.
+                    </p>
+
+                    <div class="screenshot-4 no-repeat"></div>
+                </div>
+                <div class="col-md-6">
+                    <div class="screenshot-3 no-repeawt"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body section-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h2>Cash Flow at a Glance</h2>
+                    <p>
+                        Monitoring your cash flow daily, weekly, monthly and yearly.
+                    </p>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="screenshot-5 relative">
+                        <div class="ipad no-repeat"></div>
+                        <div class="iphone-1 no-repeat"></div>
+                        <div class="iphone-2 no-repeat"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="body section-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="screenshot-6 no-repeat"></div>
+                </div>
+
+                <div class="col-md-6">
+                    <h2>Anytime, Anywhere</h2>
+                    <p>
+                        With iCloud Sync support. Your data is securely backed up anytime and anywhere. <br/>
+                        You can also export all your expenses into CSV file and send to yourself via email.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>If you have any question, just send me an email to <a href="mailto:zhuyuzhou.dev@gmail.com">zhuyuzhou.dev@gmail.com</a>.<br/>
+You may also want to check out my <a href="http://blog.cmsight.com">Blog</a> for latest updates.
+        </p>
+    </footer>
+   
 
     <script src="static/js/jquery.min.js"></script>
-    <script type="text/javascript" src="static/js/reviews.js"></script>
     <script src="static/js/site.js"></script>
 
     <script type="text/javascript">
 
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-35797370-1']);
-  _gaq.push(['_trackPageview']);
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-35797370-1']);
+      _gaq.push(['_trackPageview']);
 
-  (function() {
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
 
 </script>
 </body>
