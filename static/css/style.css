@@ -33,9 +33,9 @@ body{font-weight: 200;padding:0;margin:0;background: #fff;font-family:"Helvetica
 
 .bg .overlay{background-color: rgba(0,0,0,0.6);width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
 
-section{height: 687px;position: relative;}
-section.header{color: #fff;}
-section.body{height: 860px;color: #333; background: #fff;}
+section{position: relative;}
+section.header{color: #fff;padding-bottom: 163px;}
+section.body{color: #333; background: #fff;}
 section h2{font-size: 60px;font-weight: 100;line-height: 60px;}
 
 
@@ -47,16 +47,17 @@ p{font-size: 24px;line-height: 36px;}
 
 .logo{width: 335px;height: 74px;background-image: url('../img/logo.png');background-size: 335px 74px;margin: 208px 0 56px;}
 .btn-download{width: 196px;height: 56px;background-image: url('../img/download-badge.png');background-size: 196px 56px;margin-top: 50px;display: block;}
-.screenshot-1{width: 437px;height: 803px;background-image:url('../img/screenshots/1.png');background-size: 437px 803px;position:absolute;top: 95px;right:20px;z-index: 1000;}
+.screenshot-1{width: 437px;height: 803px;background-image:url('../img/screenshots/1.png');background-size: 437px 803px;margin-bottom: -500px;}
 
+section.section-2{padding-bottom: 150px;}
 section.section-2 h2{margin-top: 548px;}
 
-.layers{overflow: visible;position: relative;}
+.layers{overflow: visible;position: relative;height: 500px;}
 .layers .layer1{width: 535px;height: 337px;background-image: url('../img/screenshots/2_layer1.png'); background-size: 535px 337px;position: absolute;top: 282px;left: 82px;}
 .layers .layer2{width: 535px;height: 337px;background-image: url('../img/screenshots/2_layer2.png'); background-size: 535px 337px;position: absolute;top: 282px;left: 82px;}
 .layers .layer3{width: 700px;height: 464px;background-image: url('../img/screenshots/2_layer3.png'); background-size: 700px 464px;position: absolute;top: 250px;left: -10px;}
 
-section.section-3{background-color:#435e8d;color: #fff;}
+section.section-3{background-color:#435e8d;color: #fff;padding-bottom: 75px;}
 section.section-3 h2{margin-top: 185px;}
 
 .screenshot-3{width: 301px;height: 652px;margin: 140px 0 0 160px;background-image: url('../img/screenshots/3.png');background-size: 301px 652px;}
@@ -71,7 +72,7 @@ section.section-4 p{text-align: center;}
 .screenshot-5 .iphone-2{width: 250px;height: 389px;position: absolute;bottom: 0;left: 700px;background-image: url('../img/screenshots/5_iphone_2.png');background-size: 250px 389px;}
 
 
-section.section-5{background-color:#f8f7fb;}
+section.section-5{background-color:#f8f7fb;padding-bottom: 260px;}
 section.section-5 h2{margin-top: 359px;}
 
 .screenshot-6{width: 358px;height: 347px;margin-top: 250px;background-image: url('../img/screenshots/6.png');background-size: 358px 347px;}
