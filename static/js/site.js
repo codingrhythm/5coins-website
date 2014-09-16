@@ -8,9 +8,13 @@ $(function(){
 
     $(window).scroll(function(){
         scroll_layer();
+        show_fade_in();
     });
 
+    $('.fade-in').css('opacity','0');
+
     scroll_layer();
+    show_fade_in();
 });
 
 function scroll_layer(){
@@ -28,4 +32,12 @@ function scroll_layer(){
             $(this).css('top', new_top+'px');
         });
     }
+}
+
+function show_fade_in(){
+    $('.fade-in').each(function(){
+        if ($(this).visible()){
+            $(this).animate({opacity:1}, 500);
+        }
+    });
 }
