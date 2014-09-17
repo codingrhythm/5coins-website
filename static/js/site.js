@@ -37,6 +37,11 @@ function scroll_layer(){
                 new_top = Math.max(new_top, max_y);
                 $(this).css('top', new_top+'px');
             });
+        }else{
+            $(this).find('.layer').each(function(){
+                var original_y = parseInt($(this).attr('original-y'));
+                $(this).css('top', original_y+'px');
+            });
         }
     });
     
