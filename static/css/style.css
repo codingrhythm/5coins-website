@@ -39,8 +39,8 @@ section.header{color: #fff;}
 section.body{color: #333; background: #fff;}
 section h2{font-size: 60px;font-weight: 100;line-height: 60px;margin: 50px 0;}
 
-section .col-xs-12 h2{font-size: 30px;margin: 40px 0 20px;}
-section .col-xs-12 p{font-size: 14px;line-height: 18px;}
+section .visible-xs-block h2{font-size: 30px;margin: 40px 0 20px;}
+section .visible-xs-block p{font-size: 14px;line-height: 18px;}
 
 .relative{position: relative;}
 
@@ -49,38 +49,49 @@ p{font-size: 24px;line-height: 36px;}
 .no-repeat{background-repeat: no-repeat;}
 
 .logo{width: 335px;height: 74px;background-image: url('../img/logo.png');background-size: 335px 74px;margin: 208px 0 56px;}
-.col-xs-12 .logo{width: 268px;height: 60px;background-size: 268px 60px;margin: 50px 0 20px;}
+.visible-xs-block .logo{width: 268px;height: 60px;background-size: 268px 60px;margin: 50px 0 20px;}
 .btn-download{width: 196px;height: 56px;background-image: url('../img/download-badge.png');background-size: 196px 56px;margin: 50px 0 180px;display: block;}
-.col-xs-12 .btn-download{margin: 40px auto;}
+.col-sm-7 .btn-download{margin-bottom: 80px;}
+.visible-xs-block .btn-download{margin: 40px auto;}
 .screenshot-1{width: 437px;height: 803px;background-image:url('../img/screenshots/1.png');background-size: 437px 803px;position: absolute; right: 20px; top: 95px;z-index: 1000;}
-.col-xs-12 .screenshot-1{width: 306px;height: 562px;background-size: 306px 562px;margin: 0 auto;position: relative;top:0;right: 0;}
+.col-sm-5 .screenshot-1{width: 306px;height: 562px;background-size: 306px 562px;top: 200px;}
+.visible-xs-block .screenshot-1{width: 306px;height: 562px;background-size: 306px 562px;margin: 0 auto;position: relative;top:0;right: 0;}
+
 
 section.section-2{padding-bottom: 150px;overflow: hidden;}
 section.section-2 h2{margin-top: 548px;}
-section.section-2 .visible-xs-block h2{margin: 40px 0 20px;font-size: 40px;}
-section.section-2 .visible-xs-block p{font-size: 20px;}
+section.section-2 .visible-sm-block h2{margin: 200px 0 20px;}
+section.section-2 .visible-xs-block h2{margin: 40px 0 20px;}
 
 .layers{overflow: visible;position: relative;height: 464px;}
 .layers .layer1{width: 535px;height: 337px;background-image: url('../img/screenshots/2_layer1.png'); background-size: 535px 337px;position: absolute;top: 282px;left: 83px;}
 .layers .layer2{width: 535px;height: 337px;background-image: url('../img/screenshots/2_layer2.png'); background-size: 535px 337px;position: absolute;top: 282px;left: 83px;}
 .layers .layer3{width: 700px;height: 464px;background-image: url('../img/screenshots/2_layer3.png'); background-size: 700px 464px;position: absolute;top: 250px;left: -10px;}
 
+.layers-sm{height: 232px;margin-top: 100px;}
 .layers-xs{height: 232px;}
-.col-xs-12 .layer1{width: 267px;height: 168px; background-size: 267px 168px;position: absolute;top: 116px;left: 37px;}
-.col-xs-12 .layer2{width: 267px;height: 168px; background-size: 267px 168px;position: absolute;top: 116px;left: 37px;}
-.col-xs-12 .layer3{width: 350px;height: 232px; background-size: 350px 232px;position: absolute;top: 100px;left: -10px;}
+.visible-sm-block .layer1,
+.visible-xs-block .layer1{width: 267px;height: 168px; background-size: 267px 168px;position: absolute;top: 116px;left: 37px;}
+.visible-sm-block .layer2,
+.visible-xs-block .layer2{width: 267px;height: 168px; background-size: 267px 168px;position: absolute;top: 116px;left: 37px;}
+.visible-sm-block .layer3,
+.visible-xs-block .layer3{width: 350px;height: 232px; background-size: 350px 232px;position: absolute;top: 100px;left: -10px;}
 
 section.section-3{background-color:#435e8d;color: #fff;}
 section.section-3 h2{margin-top: 185px;}
-section.section-3 .col-xs-12 h2{margin-top: 40px;}
+section.section-3 .visible-sm-block h2,
+section.section-3 .visible-xs-block h2{margin-top: 40px;}
 
 .screenshot-3{width: 301px;height: 652px;margin: 140px 0 0 160px;background-image: url('../img/screenshots/3.png');background-size: 301px 652px;}
-section.section-3 .col-xs-12 .screenshot-3{margin: 20px auto;width: 250px;height: 542px;background-size: 250px 542px;}
+section.section-3 .visible-sm-block .screenshot-3,
+section.section-3 .visible-xs-block .screenshot-3{margin: 20px auto;width: 250px;height: 542px;background-size: 250px 542px;}
+section.section-3 .visible-sm-block .screenshot-3{margin: 50px auto;}
 .screenshot-4{width: 443px;height: 222px;margin: 172px 0;background-image: url('../img/screenshots/4.png');background-size: 443px 222px;}
-section.section-3 .col-xs-12 .screenshot-4{width: 222px; height: 111px;margin: 40px 0;background-size: 222px 111px;}
+section.section-3 .visible-sm-block .screenshot-4,
+section.section-3 .visible-xs-block .screenshot-4{width: 222px; height: 111px;margin: 40px 0;background-size: 222px 111px;}
 
 section.section-4 h2{text-align: center;margin-top: 85px;}
-section.section-4 .col-xs-12 h2{margin-top:40px;}
+section.section-4 .visible-xs-block h2{margin-top:40px;}
 section.section-4 p{text-align: center;}
 
 .screenshot-5{margin-top: 103px;height: 558px;}
@@ -88,17 +99,26 @@ section.section-4 p{text-align: center;}
 .screenshot-5 .iphone-1{width: 250px;height: 389px;position: absolute;bottom: 0;left: 491px;background-image: url('../img/screenshots/5_iphone_1.png');background-size: 250px 389px;}
 .screenshot-5 .iphone-2{width: 250px;height: 389px;position: absolute;bottom: 0;left: 760px;background-image: url('../img/screenshots/5_iphone_2.png');background-size: 250px 389px;}
 
-.col-xs-12 .screenshot-5{margin-top: 20px; height: 279px;}
-.col-xs-12 .screenshot-5 .ipad{width: 264px;height: 279px;left: 10px;background-size: 264px 279px;}
-.col-xs-12 .screenshot-5 .iphone-1{width: 125px;height: 195px;left: 0;background-size: 125px 195px;}
-.col-xs-12 .screenshot-5 .iphone-2{width: 125px;height: 195px;left: 160px;background-size: 125px 195px;}
+.visible-sm-block .screenshot-5{margin-top: 20px;}
+.visible-sm-block .screenshot-5 .ipad{left: 80px;}
+.visible-sm-block .screenshot-5 .iphone-1{left: 0;}
+.visible-sm-block .screenshot-5 .iphone-2{left: 430px;}
+
+
+.visible-xs-block .screenshot-5{margin-top: 20px; height: 279px;}
+.visible-xs-block .screenshot-5 .ipad{width: 264px;height: 279px;left: 10px;background-size: 264px 279px;}
+.visible-xs-block .screenshot-5 .iphone-1{width: 125px;height: 195px;left: 0;background-size: 125px 195px;}
+.visible-xs-block .screenshot-5 .iphone-2{width: 125px;height: 195px;left: 160px;background-size: 125px 195px;}
 
 section.section-5{background-color:#f8f7fb;}
 section.section-5 h2{margin-top: 250px;}
-section.section-5 .col-xs-12 h2{margin: 20px;}
+section.section-5 .visible-xs-block h2{margin-top: 20px;}
+section.section-5 .visible-sm-block h2{margin-top:80px; }
 
 .screenshot-6{width: 358px;height: 347px;margin: 200px 0;background-image: url('../img/screenshots/6.png');background-size: 358px 347px;}
-.col-xs-12 .screenshot-6{width: 286px;height: 278px;margin: 20px auto;background-size: 286px 278px;}
+.visible-sm-block .screenshot-6,
+.visible-xs-block .screenshot-6{width: 286px;height: 278px;margin: 20px auto;background-size: 286px 278px;}
+.visible-sm-block .screenshot-6{margin: 100px auto 200px; }
 
 footer{padding: 60px;}
 footer p{font-size: 18px !important;text-align: center;line-height: 27px;}

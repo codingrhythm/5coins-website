@@ -7,15 +7,18 @@ $(function(){
     });
 
     $(window).scroll(function(){
-        scroll_layer();
-        show_fade_in();
+        update_ui();
     });
 
     $('.fade-in').css('opacity','0');
 
+    setTimeout('update_ui()', 500);
+});
+
+function update_ui(){
     scroll_layer();
     show_fade_in();
-});
+}
 
 function scroll_layer(){
     var scroll_top = $(window).scrollTop();
