@@ -110,7 +110,8 @@ function scheduleNextSlide() {
         if (targetIndex == 5) {
             targetIndex = 0;
         }
-        showSlide(targetIndex, 400);
+
+        if (!inAnimation) showSlide(targetIndex, 400);
     }, 5000);
 }
 
