@@ -16,14 +16,19 @@ var totalChanges = 0;
 
 function MouseWheelHandler(e) {
     var e = window.event || e; // old IE support
-    totalChanges += e.detail;
-    var top = parseInt($('.bgs').css('top')) - e.detail * 10;
+    var delta = e.detail;
+    if (typeof e.deltaY != 'undefined') {
+        //delta = e.deltaY;
+    }
+
+    totalChanges += delta;
+    var top = parseInt($('.bgs').css('top')) - delta * 10;
     top = Math.min(0, top);
     top = Math.max(-$(window).height() * 5, top);
 
     $('.bgs').css('top', top  + 'px');
 
-    var sTop = parseInt($('.screenshot').css('top')) - e.detail * 5;
+    var sTop = parseInt($('.screenshot').css('top')) - delta * 5;
     sTop = Math.min(0, sTop);
     sTop = Math.max(-screenshotHeight * 5, sTop);
     $('.screenshot').css('top', sTop + 'px');
