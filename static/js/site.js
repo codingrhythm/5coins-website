@@ -109,7 +109,6 @@ function showDescription(index, duration, opacity) {
 var sliderTimer = null;
 function scheduleNextSlide() {
     inAnimation = false;
-    return;
     clearTimeout(sliderTimer);
     sliderTimer = setTimeout(function(){ 
         var targetIndex = slideIndex + 1;
